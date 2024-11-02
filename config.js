@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '923212321750';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
@@ -20,7 +20,7 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'ULTRA-MD';
-global.botNumber = '923051391007' //replace your bot number here
+global.botNumber = '923212321750' //replace your bot number here
 
 global.mods = []
 global.prems = []
@@ -76,10 +76,10 @@ global.packname = 'GLOBAL-MD'
 global.author = 'GlobalTechInfo'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
-global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+global.dygp = 'https://whatsapp.com/channel/0029Va8SjGU1noyxsYBA2K2e'
 global.fgsc = 'https://github.com/GlobalTechInfo/ULTRA-MD'
-global.fgyt = 'https://youtube.com/@GlobalTechInfo'
-global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
+global.fgyt = 'https://youtube.com/@ZAHREELA-OFC'
+global.fgpyp = 'https://youtube.com/@ZAHREELA-OFC'
 global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
 global.thumb = fs.readFileSync('./assets/qasim.jpg')
 
